@@ -1,0 +1,23 @@
+{{define "base"}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{template "title" .}}</title>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&amp;subset=all" rel="stylesheet" type="text/css" />
+    <link href="http://keenthemes.com/preview/metronic/theme/assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="http://keenthemes.com/preview/metronic/theme/assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="http://keenthemes.com/preview/metronic/theme/assets/global/plugins/select2/css/select2.min.css" rel="stylesheet" type="text/css" />
+    <link href="http://keenthemes.com/preview/metronic/theme/assets/global/plugins/select2/css/select2-bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="http://keenthemes.com/preview/metronic/theme/assets/global/css/components.min.css" rel="stylesheet" id="style_components" type="text/css" />
+    <link href="http://keenthemes.com/preview/metronic/theme/assets/layouts/layout3/css/layout.min.css" rel="stylesheet" type="text/css" />
+    <link href="http://keenthemes.com/preview/metronic/theme/assets/layouts/layout3/css/themes/default.min.css" rel="stylesheet" type="text/css" id="style_color" />
+    <link href="http://keenthemes.com/preview/metronic/theme/assets/layouts/layout3/css/custom.min.css" rel="stylesheet" type="text/css" />
+    {{template "links" .}}
+    <link rel="shortcut icon" href="favicon.ico" />
+</head>
+{{template "body" .}}
+</html>
+{{end}}

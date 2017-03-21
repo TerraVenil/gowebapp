@@ -1,0 +1,13 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "HBIeQCwDpiC0HbnL6eORVO/sVRc=",
+			"path": "github.com/TerraVenil/gowebapp",
+			"revision": "5125bcf512f35440eb95e40e74e80c1be00dfb46",
+			"revisionTime": "2017-03-21T21:00:46Z"
+		}
+	],
+	"rootPath": "github.com/TerraVenil/gowebapp"
+}
